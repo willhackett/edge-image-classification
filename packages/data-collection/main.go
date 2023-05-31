@@ -10,6 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
+	sanitize "github.com/mrz1836/go-sanitize"
 	"github.com/tidwall/gjson"
 )
 
@@ -49,7 +50,7 @@ func main() {
 
 		// Search for images
 		searchQuery := fmt.Sprintf("%s logo", companyName)
-		searchQuery = strings.ReplaceAll(searchQuery, " ", "%20")
+		searchQuery = sanitize.URI(searchQuery)
 
 		client := &http.Client{}
 

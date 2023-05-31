@@ -1,3 +1,5 @@
+github.com/mrz1836/go-sanitize v1.3.0 h1:ExJE6BCn1YWdopt1NPyMTfxDdTMxOMs8WsJ2GrfN1zo=
+github.com/mrz1836/go-sanitize v1.3.0/go.mod h1:oakqgm7YGr+k591N0m8FVx7cOywaHr95FWmI4cDYkIc=
 github.com/tidwall/gjson v1.14.4 h1:uo0p8EbA09J7RQaflQ1aBRffTR7xedD2bcIVSYxLnkM=
 github.com/tidwall/gjson v1.14.4/go.mod h1:/wbyibRr2FHMks5tjHJ5F8dMZh3AcwJEMf5vlfC0lxk=
 github.com/tidwall/match v1.1.1 h1:+Ho715JplO36QYgwN9PGYNhgZvoUSc9X2c80KVTi+GA=
