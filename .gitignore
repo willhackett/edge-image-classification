@@ -1,0 +1,9 @@
+# NodeJS gitignore
+node_modules
+npm-debug.log
+
+# OSX
+.DS_Store
+
+# Windows
+Thumbs.db
